@@ -1,0 +1,38 @@
+# Controle de versão
+.git
+.gitignore
+
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Environment
+.env.example
+.env.local
+.env.*.local
+
+# IDEs
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentação
+*.md
+!README.md
+
+# SQL (não necessário no container)
+sql/
+
+# Logs
+*.log
+logs/
+
+# Temp
+tmp/
+temp/
